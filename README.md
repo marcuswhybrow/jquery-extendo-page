@@ -15,6 +15,8 @@ Options
 * message (default: 'There are no more posts') - A message to display when the recursive link is eventually not found (thus no more pages of items are available).
 * newText (default: '+ More Posts') - New string to replace the existing links text with, for a more authentic meaning.
 
+For example:
+
     $('#older-posts a').extendoPage('#post-list .post', '#post-list', {
         spinnerImage: '/path/to/ajax-loader.gif',
         recursiveLink: '#older-posts a'
